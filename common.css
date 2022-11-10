@@ -72,7 +72,7 @@ header img {
  -------------------------------------------- */
 main {
 	width: 100%;
-	max-width: 1030px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 24px 0;
 }
@@ -87,7 +87,7 @@ main a:hover, main a:active  { text-decoration: underline; }
 /* カラムの設定
  -------------------------------------------- */
 .row {
-	max-width: 1030px;
+	max-width: 1200px;
 	margin: 0 auto 50px;
 	font-family: 'ＭＳ. Ｐ明朝',serif;
 	font-size: 16px;
