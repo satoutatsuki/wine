@@ -3,7 +3,7 @@
 /* 基本の設定
  -------------------------------------------- */
 body {
-	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	font-family: 'ＭＳ Ｐゴシック',sans-serif;
 	font-size: 16px;
 	line-height: 1.7;
 	margin: 0;
@@ -39,9 +39,7 @@ header {
 	text-align: center;
 	color: rgb(0, 0, 0);
 }
-header#itempage { /* アイテムページのときはヘッダーの幅を狭くする */
-	padding: 4em 0 2em;
-}
+
 header nav {
 	background: rgb(255, 136, 0) ;
 	padding: 10px 0; 
@@ -66,7 +64,7 @@ header h1 a {
 	color: rgb(140, 64, 64);
 }
 
-header img { /* フルードイメージ対応 */
+header img { 
 	max-width: 100%;
 	height: auto;
 }
@@ -74,7 +72,7 @@ header img { /* フルードイメージ対応 */
  -------------------------------------------- */
 main {
 	width: 100%;
-	max-width: 930px;
+	max-width: 1030px;
 	margin: 0 auto;
 	padding: 24px 0;
 }
@@ -85,24 +83,13 @@ main a:link,
 main a:visited { text-decoration: none; }
 main a:hover, main a:active  { text-decoration: underline; }
 
-/* フッター
- -------------------------------------------- */
-footer {
-	background-color: #114046;
-	color: #40666a;
-	font-family: "Montserrat",sans-serif;
-	text-align:center;
-	width: 100%;
-	padding: 6em 0;
-}
-
 	
 /* カラムの設定
  -------------------------------------------- */
 .row {
-	max-width: 930px;
+	max-width: 1030px;
 	margin: 0 auto 50px;
-	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ. Ｐ明朝',serif;
+	font-family: 'ＭＳ. Ｐ明朝',serif;
 	font-size: 16px;
 }
 .row::after { 
@@ -203,12 +190,6 @@ main a.button { color: rgb(32, 27, 104); }
 main a.button:hover,
 main a.button:active { text-decoration: none; }
 
-/* 商品ページの装飾
- -------------------------------------------- */
-.cartarea {
-	border-top: 1px dotted rgb(116, 33, 33);
-	text-align: center;
-}
 
 /* ----------------------
  画面の横幅が599px以下の場合に適用（スマートフォン用）
