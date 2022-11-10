@@ -37,7 +37,7 @@ header {
 	background: url("../images/header_green.jpg") no-repeat fixed center bottom / cover ;
 	position: relative;
 	text-align: center;
-	color: rgb(255, 0, 0);
+	color: rgb(0, 0, 0);
 }
 header#itempage { /* アイテムページのときはヘッダーの幅を狭くする */
 	padding: 4em 0 2em;
